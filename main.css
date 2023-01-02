@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.container img{
+    height: 100px;
+}
+
+h2{
+    font-size: bold;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #ebdbc2;
+}
+
+header .container,
+header .container img,
+header .container li a,
+header .container li a{
+    background-color: #ebdbc2;
+}
+
+section{
+    background-color: #2B4257;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+
+}
+
+header nav li a{
+    color: #2B4257;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0px;
+    color: #ebdbc2;
+    
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.store-front{
+    margin-right: 32px;
+}
+
+img.store-front{
+    width: 600px;
+    height: 400px;
+}
+
+#dentistas{
+    padding: 16px 0;
+}
+
+
+#dentistas .container,
+#contato .container{
+    display: block;
+}
+
+.dentistas-fotos li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 64px;
+}
+
+#dentistas .container h5{
+    margin-top: 4px;
+}
+
+.dentistas-fotos img{
+    height: 240px;
+}
+
+#contato .container h5,
+#contato .container h4{
+    margin-top: 16px;
+}
+
+.links-sociais img{
+    height: 24px;
+    margin-top: 16px;
+}
+
+.links-sociais li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+footer{
+    background-color: #ebdbc2;
+    color: #2C4257;
+    padding: 16px 0px;
+}
+
+#quemsomos,
+#contato{
+    background-color: #03273d;
+}
+
+
+
+
+
+
+
+
