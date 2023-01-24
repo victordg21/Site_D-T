@@ -116,6 +116,7 @@ footer p{
 
 .numero-telefone{
     text-decoration: none;
+    color: #ebdbc2;
 }
 
 @media (max-width: 767px){
