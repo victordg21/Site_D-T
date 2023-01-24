@@ -2,10 +2,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color: #ebdbc2;
-}
-
 header img{
     height: 120px;
 }
@@ -115,7 +111,7 @@ footer p{
 }
 
 .numero-telefone{
-    list-style: none;
+    text-decoration: none;
     color: #ebdbc2;
 }
 
@@ -132,6 +128,11 @@ footer p{
     #casos img{
         width: 100%;
         height: 400px;
+    }
+
+    .numero-telefone{
+        text-decoration: none;
+        color: #ebdbc2;
     }
 
 
@@ -155,6 +156,9 @@ footer p{
         width: 100%;
         height: 700px;
     }
+
+    .numero-telefone{
+        text-decoration: none;
+        color: #ebdbc2;
+    }
 }
-
-
