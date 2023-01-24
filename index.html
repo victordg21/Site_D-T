@@ -5,109 +5,172 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&T Odontologia</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="main.css">
+    
 </head>
 <body>
-    <header>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
         <div class="container">
-            <img src="./images/Logo.png" alt="Det">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#quemsomos">Quem Somos</a>
-                </li>
-                <li>
-                    <a href="#dentistas">Dentistas</a>
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
-            </ul>
-        </nav>
+            <img class="navbar-brand" src="./img/Logo.png" alt="Logo da D&T">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#quemsomos">Quem Somos</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#dentistas">Dentistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#casos">Casos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <section id="quemsomos">
-        <div class="container">
-            <img class="store-front" src="./images/equipe.png" alt="Equipe Det">
-            <div>
-                <h2>Quem Somos?</h2>
-                <p>
-                    A D&T Odontologia foi fundada em 2015, e partiu de uma ideia conjunta do dentista e sócio da empresa, Dr. Douglas em conjunto com sua sócia e dentista Dra. Thais. A ideia tinha como objetivo criar uma sociedade com alguns dentistas com o intuito de trazer felicidade para as pessoas em forma de sorriso
-                    e poder realizar um trabalho que consiga trazer transformações para seus pacientes, passando uma experiência única.
-                </p>
-                <p>
-                    Ao longo dos anos a clínica odontológica foi crescendo e conseguindo espalhar seu objetivo de transformar não apenas sorrisos, mas sim vidas.
-                    A D&T Odontologia trabalha em diversas áreas, com um grande enfoque na parte estética, na confecção das famosas lentes de contatos dentais como seu principal produto. 
-                </p>
-                <p>
-                    A empresa vem crescendo ao longo dos anos e cada vez mais chama a atenção das pessoas, que vem de todo o Brasil em busca
-                    da sua transformação e experiência única, pois a D&T também promove um ambiente de trabalho muito profissional, mas que acima
-                    de tudo cria laços com seus pacientes, facilitando todo o trabalho e promovendo uma experiência inigualável.
+    <div data-bs-spy="scroll" daya-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="quemsomos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="./img/equipe.png" class="d-block w-100" alt="Equipe D&T">
+                    </div>
+                    <div class="col-lg-6 texto-quemsomos">
+                        <h2 class="fw-bold">Quem Somos ?</h2>
+                        <p class="fw-bold">
+                            A D&T Odontologia foi fundada em 2015, e partiu de uma ideia conjunta do dentista e sócio da empresa, Dr. Douglas em conjunto com sua sócia e dentista Dra. Thais. A ideia tinha como objetivo criar uma sociedade com alguns dentistas com o intuito de trazer felicidade para as pessoas em forma de sorriso
+                            e poder realizar um trabalho que consiga trazer transformações para seus pacientes, passando uma experiência única.
+                        </p>
+                        <p class="fw-bold">
+                            Ao longo dos anos a clínica odontológica foi crescendo e conseguindo espalhar seu objetivo de transformar não apenas sorrisos, mas sim vidas.
+                            A D&T Odontologia trabalha em diversas áreas, com um grande enfoque na parte estética, na confecção das famosas lentes de contatos dentais como seu principal produto. 
+                        </p>
+                        <p class="fw-bold">
+                            A empresa vem crescendo ao longo dos anos e cada vez mais chama a atenção das pessoas, que vem de todo o Brasil em busca
+                            da sua transformação e experiência única, pois a D&T também promove um ambiente de trabalho muito profissional, mas que acima
+                            de tudo cria laços com seus pacientes, facilitando todo o trabalho e promovendo uma experiência inigualável.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dentistas">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold">Dentistas</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./img/douglas.jpg" class="d-block-w-100" alt="Dentista Dr. Douglas">
+                        <h4 class="fw-bold">Dr.Douglas</h4>
+                        <h6>CRO-PB 2927</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./img/thais.jpg" class="d-block-w-100" alt="Dentista Dra. Thais">
+                        <h4 class="fw-bold">Dra.Thais</h4>
+                        <h6>CRO-PB 4556</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./img/gustavo.jpg" class="d-block-w-100" alt="Dentista Dr. Gustavo">
+                        <h4 class="fw-bold">Dr.Gustavo</h4>
+                        <h6>CRO-PB 7906</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="casos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold">Casos</h2>
+                </div>
+                <div class="row">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="./img/cunha-foto.jpeg" alt="Sorriso de Rafel">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/waguinho-foto.jpeg" alt="Sorriso de Debora">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/mayara-foto.jpeg" alt="Sorriso de Matheus">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/vinicius-foto.jpeg" alt="Sorriso de Mayara">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row referencia">
+                    <div class="col-lg-10 col-md-8"></div>
+                    <div class="col-lg-2 col-md-4">
+                        <a href="" class="nav-link fw-bold">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold">Contato</h2>
+                </div>
+                <div class="row">
+                    <h3>Telefone</h3>
+                    <h5>(83)3244-4450</h5>
+                    <h3>Redes Sociais</h3>
+                    <ul class="social-links">
+                        <li class="fs-5">
+                            <a href="https://www.facebook.com/profile.php?id=100063776628574&mibextid=LQQJ4d">
+                                <i class="bi bi-facebook cor-logos"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="https://api.whatsapp.com/send/?phone=5583987661600&text&type=phone_number&app_absent=0">
+                                <i class="bi bi-whatsapp cor-logos"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="https://www.instagram.com/det_odontologia/">
+                                <i class="bi bi-instagram cor-logos"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <h3>Endereço</h3>
+                    <h5> Av. Monteiro da Franca, 659 - Loja 15 - Manaíra, João Pessoa - PB, 58038-320</h5>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="fw-bold">
+                    &copy; D&T Odontologia - Todos os direitos reservados - 2022
                 </p>
             </div>
-        </div>
-    </section>
-    <section id="dentistas">
-        <div class="container">
-            <h2>Dentistas</h2>
-            <div class="dentistas-fotos">
-                <ul>
-                    <li>
-                        <img src="./images/douglas.jpg" alt="Douglas">
-                        <h3>Dr. Douglas</h3>
-                        <h5>CRO-PB 2927</h5>
-                    </li>
-                    <li>
-                        <img src="./images/thais.jpg" alt="Thais">
-                        <h3>Dra. Thais</h3>
-                        <h5>CRO-PB 4556</h5>
-                    </li>
-                    <li>
-                        <img src="./images/gustavo.jpg" alt="Gustavo">
-                        <h3>Dr. Gustavo</h3>
-                        <h5>CRO-PB 7906</h5>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <h5>Tel : (83)3244-4450</h5>
-            <h4>Redes Sociais</h4>
-            <div class="links-sociais">
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/det_odontologia/" title="Siga-nos no Instagram">
-                            <img src="./images/instagram.webp" alt="Instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://api.whatsapp.com/send/?phone=5583987661600&text&type=phone_number&app_absent=0" title="Fale conosco no Whatsapp">
-                            <img src="./images/whatsapp-logo-1.png" alt="Whatsapp">
-                        </a>    
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100063776628574&mibextid=LQQJ4d" title="Siga-nos no Facebook">
-                            <img src="./images/facebook.webp" alt="Facebook">
-                        </a>    
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>   
-    <footer>
-        <div class="container">
-            <p>
-                &copy; D&T Odontologia - Todos os direitos reservados - 2022
-            </p>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
