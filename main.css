@@ -115,7 +115,7 @@ footer p{
 }
 
 .numero-telefone{
-    text-decoration: none;
+    list-style: none;
     color: #ebdbc2;
 }
 
