@@ -114,6 +114,10 @@ footer p{
     margin: 8px 0px;
 }
 
+.numero-telefone{
+    text-decoration: none;
+}
+
 @media (max-width: 767px){
     
     #quemsomos h2{
