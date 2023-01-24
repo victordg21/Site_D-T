@@ -1,141 +1,151 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;;
+*{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.container img{
-    height: 100px;
+header img{
+    height: 120px;
 }
 
-h2{
-    font-size: bold;
-}
-
-header{
-    padding: 16px 0;
+.navbar{
     background-color: #ebdbc2;
 }
 
-header .container,
-header .container img,
-header .container li a,
-header .container li a{
-    background-color: #ebdbc2;
-}
-
-section{
+.nav .nav-link.active{
     background-color: #2B4257;
+    color: #ebdbc2;
 }
 
-header nav li{
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
-
-}
-
-header nav li a{
+.nav .nav-link,
+.navbar-brand{
     color: #2B4257;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-header .container,
-section .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section .container{
-    align-items: flex-start;
 }
 
 section{
-    padding: 24px 0px;
+    padding: 16px;
+}
+
+#quemsomos,#casos{
+    background-color: #03273d;
     color: #ebdbc2;
-    
 }
 
-section p{
-    margin-bottom: 8px;
+#dentistas,#contato{
+    background-color: #2B4257;
+    color: #ebdbc2;
 }
 
-section h2{
-    margin-bottom: 16px;
+#quemsomos p{
+    font-size: 13px;
+    margin-bottom: 4px;
 }
 
-.store-front{
-    margin-right: 32px;
-}
-
-img.store-front{
-    width: 600px;
+#dentistas img{
     height: 400px;
 }
 
-#dentistas{
-    padding: 16px 0;
-}
-
-
-#dentistas .container,
-#contato .container{
-    display: block;
-}
-
-.dentistas-fotos li{
-    display: inline-block;
-    justify-content: space-between;
-    margin-right: 64px;
-}
-
-#dentistas .container h5{
-    margin-top: 4px;
-}
-
-.dentistas-fotos img{
-    height: 240px;
-}
-
-#contato .container h5,
-#contato .container h4{
-    margin-top: 16px;
-}
-
-.links-sociais img{
-    height: 24px;
-    margin-top: 16px;
-}
-
-.links-sociais li{
-    display: inline-block;
-    justify-content: space-between;
+#dentistas h4{
     margin-top: 8px;
-    margin-right: 8px;
+    margin-bottom: 2px;
+}
+
+section img{
+    border-radius: 12px;
+}
+
+#casos img{
+    width: 100%;
+    height: 1318px;
+}
+
+.referencia{
+    margin-top: 32px;
+}
+
+.referencia a{
+    text-align: center;
+    background-color: #ebdbc2;
+    padding: 8px 0px;
+    color: #03273d;
+    border-radius: 6px;
+
+}
+
+.referencia a:hover{
+    color: #03273d;
+    background-color:#ebdbc2 ;
+}
+
+#contato h3{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    margin-right: 4px;
+
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.cor-logos{
+    color: #ebdbc2;
 }
 
 footer{
     background-color: #ebdbc2;
     color: #2C4257;
-    padding: 16px 0px;
+    padding: 8px 0px;
 }
 
-#quemsomos,
-#contato{
-    background-color: #03273d;
+#dentistas h2,
+#casos h2{
+    margin-bottom: 32px;
 }
 
+footer p{
+    margin: 8px 0px;
+}
+
+@media (max-width: 767px){
+    
+    #quemsomos h2{
+        margin: 8px 0px;
+    }
+
+    #dentistas h6{
+        margin-bottom: 32px;
+    }
+
+    #casos img{
+        width: 100%;
+        height: 400px;
+    }
 
 
+}
 
+@media (min-width: 768px) and (max-width: 1023px){
 
+    #quemsomos h2{
+        margin: 16px 0px;
+    }
 
+    #quemsomos p{
+        font-size: 18px;
+    }
+
+    #dentistas h6{
+        margin-bottom: 32px;
+    }
+
+    #casos img{
+        width: 100%;
+        height: 700px;
+    }
+}
 
 
