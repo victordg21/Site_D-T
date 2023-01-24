@@ -2,6 +2,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #ebdbc2;
+}
+
 header img{
     height: 120px;
 }
