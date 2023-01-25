@@ -28,7 +28,14 @@ section{
     padding: 16px;
 }
 
-#quemsomos,#casos, #casos-pp2{
+#perguntas h2{
+    margin-bottom: 32px;
+}
+
+#quemsomos,
+#casos,
+#casos-pp2,
+#perguntas{
     background-color: #03273d;
     color: #ebdbc2;
 }
@@ -58,7 +65,9 @@ section img,
 }
 
 #casos img{
-    width: 100%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
 }
 
 .referencia{
@@ -123,6 +132,17 @@ footer p{
     margin: 32px 0px;
 }
 
+
+.button-respostas{
+    background-color: #2C4257;
+    color: #ebdbc2;
+}
+
+.button-perguntas{
+    background-color: #ebdbc2;
+    color: #2C4257;
+}
+
 @media (max-width: 767px){
     
     #quemsomos h2{
@@ -142,7 +162,19 @@ footer p{
         color: #ebdbc2;
     }
 
+    #dentistas h2,
+    #casos h2,
+    #casos-pp2 h2,
+    #dentistas h4,
+    #dentistas h6,
+    #contato h2{
+        text-align: center;
+    }
 
+    #dentistas img{
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
@@ -168,4 +200,3 @@ footer p{
         color: #ebdbc2;
     }
 }
-
