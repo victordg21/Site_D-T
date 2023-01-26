@@ -119,6 +119,12 @@ footer{
     margin-bottom: 32px;
 }
 
+.casos-vermais{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
 footer p{
     margin: 8px 0px;
 }
@@ -134,11 +140,6 @@ footer p{
 
 
 .button-respostas{
-    background-color: #2C4257;
-    color: #ebdbc2;
-}
-
-.button-perguntas{
     background-color: #ebdbc2;
     color: #2C4257;
 }
@@ -175,6 +176,10 @@ footer p{
         display: block;
         margin: 0 auto;
     }
+
+    .casos-vermais{
+        width: 95%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
@@ -199,4 +204,9 @@ footer p{
         text-decoration: none;
         color: #ebdbc2;
     }
+
+    .casos-vermais{
+        width: 95%;
+    }
 }
+
